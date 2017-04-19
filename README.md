@@ -1,7 +1,10 @@
-# test coverage for  [gulp-html-replace (v1.6.2)](https://github.com/VFK/gulp-html-replace#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-html-replace.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-html-replace) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-html-replace.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-html-replace)
+# npmtest-gulp-html-replace
+
+#### test coverage for  [gulp-html-replace (v1.6.2)](https://github.com/VFK/gulp-html-replace#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-html-replace.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-html-replace) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-html-replace.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-html-replace)
+
 #### Replace build blocks in HTML. Like useref but done right.
 
-[![NPM](https://nodei.co/npm/gulp-html-replace.png?downloads=true)](https://www.npmjs.com/package/gulp-html-replace)
+[![NPM](https://nodei.co/npm/gulp-html-replace.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/gulp-html-replace)
 
 | git-branch : | [alpha](https://github.com/npmtest/node-npmtest-gulp-html-replace/tree/alpha)|
 |--:|:--|
@@ -9,11 +12,17 @@
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-gulp-html-replace/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-gulp-html-replace/build/test-report.html)|
 | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-gulp-html-replace/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-gulp-html-replace/tree/gh-pages/build)|
 
-[![istanbul-coverage](https://npmtest.github.io/node-npmtest-gulp-html-replace/build/screenCapture.buildCustomOrg.browser.coverage.html.png)](https://npmtest.github.io/node-npmtest-gulp-html-replace/build/coverage.html/index.html)
+- [https://npmtest.github.io/node-npmtest-gulp-html-replace/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-gulp-html-replace/build/coverage.html/index.html)
 
-[![test-report](https://npmtest.github.io/node-npmtest-gulp-html-replace/build/screenCapture.buildCustomOrg.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmtest%252Fnode-npmtest-gulp-html-replace%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-gulp-html-replace/build/test-report.html)
+[![istanbul-coverage](https://npmtest.github.io/node-npmtest-gulp-html-replace/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fcoverage.lib.html.png)](https://npmtest.github.io/node-npmtest-gulp-html-replace/build/coverage.html/index.html)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-gulp-html-replace/build/screenCapture.buildApidoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-gulp-html-replace%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-gulp-html-replace/build/apidoc.html)
+- [https://npmtest.github.io/node-npmtest-gulp-html-replace/build/test-report.html](https://npmtest.github.io/node-npmtest-gulp-html-replace/build/test-report.html)
+
+[![test-report](https://npmtest.github.io/node-npmtest-gulp-html-replace/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-gulp-html-replace/build/test-report.html)
+
+- [https://npmdoc.github.io/node-npmdoc-gulp-html-replace/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-gulp-html-replace/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-gulp-html-replace/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-gulp-html-replace/build/apidoc.html)
 
 ![npmPackageListing](https://npmtest.github.io/node-npmtest-gulp-html-replace/build/screenCapture.npmPackageListing.svg)
 
@@ -27,16 +36,14 @@
 
 {
     "author": {
-        "name": "Vladimir Kucherenko",
-        "email": "kvsoftware@gmail.com"
+        "name": "Vladimir Kucherenko"
     },
     "bugs": {
         "url": "https://github.com/VFK/gulp-html-replace/issues"
     },
     "contributors": [
         {
-            "name": "Bruce MacNaughton",
-            "email": "bmacnaughton@gmail.com"
+            "name": "Bruce MacNaughton"
         }
     ],
     "dependencies": {
@@ -80,13 +87,11 @@
     "main": "./lib/index.js",
     "maintainers": [
         {
-            "name": "vfk",
-            "email": "kvsoftware@gmail.com"
+            "name": "vfk"
         }
     ],
     "name": "gulp-html-replace",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/VFK/gulp-html-replace.git"
