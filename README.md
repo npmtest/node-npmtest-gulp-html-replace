@@ -1,6 +1,6 @@
 # npmtest-gulp-html-replace
 
-#### test coverage for  [gulp-html-replace (v1.6.2)](https://github.com/VFK/gulp-html-replace#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-html-replace.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-html-replace) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-html-replace.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-html-replace)
+#### basic test coverage for  [gulp-html-replace (v1.6.2)](https://github.com/VFK/gulp-html-replace#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-html-replace.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-html-replace) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-html-replace.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-html-replace)
 
 #### Replace build blocks in HTML. Like useref but done right.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-gulp-html-replace/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-gulp-html-replace/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-gulp-html-replace/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-gulp-html-replace/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-gulp-html-replace/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-gulp-html-replace/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-gulp-html-replace/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-gulp-html-replace/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-gulp-html-replace/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-gulp-html-replace/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-gulp-html-replace/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-gulp-html-replace/build/coverage.html/index.html)
 
@@ -101,7 +101,8 @@
         "coveralls": "istanbul cover _mocha && istanbul-coveralls",
         "test": "mocha"
     },
-    "version": "1.6.2"
+    "version": "1.6.2",
+    "bin": {}
 }
 ```
 
